@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de novos sistemas</title>
+</head>
+<body>
+    <h1>Criação de novos sistemas</h1>
+    <p>Preencha os dados do novo sistema a seguir:</p>
+    <form action="create_system.php" method="post">
+        <label for="name">Nome do sistema:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="description">Descrição do sistema:</label>
+        <textarea id="description" name="description" required></textarea>
+        <button type="submit">Criar sistema</button>
+        <a href="/main/index.html">Voltar</a>
+        <input type="hidden" name="action" value="create">
+        <input type="hidden" name="id" value="0">
+        <input type="hidden" name="created_at" value="<?php echo date('Y-m-d H:i:s');?>">
+        <input type="hidden" name="updated_at" value="<?php echo date('Y-m-d H:i:s');?>">
+        <input type="hidden" name="created_by" value="1">
+        <input type="hidden" name="updated_by" value="1">
+        <input type="hidden" name="status" value="1">
+        <input type="hidden" name="type" value="system">
+        <input type="hidden" name="parent_id" value="0">
+        <input type="hidden" name="order" value="0">
+        <input type="hidden" name="color" value="#000000">
+        <input type="hidden" name="icon" value="fas fa-server">
+        <input type="hidden" name="color_text" value="#ffffff">
+        <input type="hidden" name="icon_text" value="#000000">
+        <input type="hidden" name="color_background" value="#ffffff">
+        <input type="hidden" name="icon_background" value="#000000">
+        <input type="hidden" name="color_border" value="#000000">
+        <input type="hidden" name="icon_border" value="#000000">
+        <input type="hidden" name="color_hover" value="#000000">
+        <input type="hidden" name="icon_hover" value="#ffffff">
+        <input type="hidden" name="color_active" value="#000000">
+        <input type="hidden" name="icon_active" value="#ffffff">
+        <input type="hidden" name="color_selected" value="#000000">
+        <input type="hidden" name="icon_selected" value="#ffffff">
+        <input type="hidden" name="color_checked" value="#000000">
+        <input type="hidden" name="icon_checked" value="#ffffff">
+        <input type="hidden" name="color_disabled" value="#000000">
+        <input type="hidden" name="icon_disabled" value="#ffffff">
+        <input type="hidden" name="color_error" value="#000000">
+</body>
+</html>
