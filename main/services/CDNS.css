@@ -1,0 +1,93 @@
+/* Resetando alguns estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Cabeçalho */
+  h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Texto explicativo */
+  p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Formulário */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo dos labels */
+  label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #2c3e50;
+  }
+  
+  /* Estilo dos inputs e textarea */
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  /* Estilo para o botão de envio */
+  input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsividade para telas menores */
+  @media (max-width: 768px) {
+    body {
+      padding: 10px;
+    }
+  
+    form {
+      padding: 15px;
+    }
+  
+    input[type="submit"] {
+      font-size: 1rem;
+    }
+  }
+  

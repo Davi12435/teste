@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CDNS.css">
     <title>Criação de novos software</title>
 </head>
 <body>
-    <h1>Criação de novos software</h1>
-    <p>Aqui você pode cadastrar novos software, incluindo nome, descrição, preço e data de lançamento.</p>
-    <form action="store.php" method="post">
+    <h1 class="topo">Criação de novos software</h1>
+    <p .topo>Aqui você pode cadastrar novos software, incluindo nome, descrição, preço e data de lançamento.</p>
+    <form action="/PaginasPHP/store.php" method="post">
         <label for="name">Nome:</label>
         <input type="text" id="name" name="name" required>
         <br><br>
@@ -22,18 +23,5 @@
         <input type="date" id="release_date" name="release_date" required>
         <br><br>
         <input type="submit" value="Cadastrar">
-        <a href="/main/edit.php">Editar</a>
-        <a href="/main/delete.php">Excluir</a>
-        <a href="/main/create.php">Novo</a>
-        <a href="/main/search.php">Buscar</a>
-        <a href="/main/sort.php">Ordenar</a>
-        <a href="/main/filter.php">Filtrar</a>
-        <a href="/main/paginate.php">Paginar</a>
-        <a href="/main/logout.php">Sair</a>
-        <a href="/main/login.php">Login</a>
-        <a href="/main/register.php">Cadastrar</a>
-        <a href="/main/about.php">Sobre</a>
-        <a href="/main/contact.php">Contato</a>
-        <a href="/main/index.html">Voltar</a>
 </body>
 </html>

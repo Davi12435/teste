@@ -1,0 +1,78 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+ul li {
+    padding: 8px 0;
+}
+
+a {
+    display: inline-block;
+    text-align: center;
+    color: #3498db;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #3498db;
+    width: 100px;
+    margin: 20px auto;
+}
+
+a:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    ul li {
+        font-size: 1rem;
+    }
+
+    a {
+        width: auto;
+        padding: 8px 15px;
+    }
+}
